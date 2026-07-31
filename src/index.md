@@ -3,7 +3,7 @@ layout: base.njk
 title: Home
 ---
 
-<p class="eyebrow">Content Designer &amp; Copywriter</p>
+<p class="eyebrow">Copy writing and content design</p>
 
 # Natalie Taylor
 
