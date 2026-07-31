@@ -1,0 +1,13 @@
+{
+  "name": "natalie-taylor-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site - copywriting, content design and marketing case studies",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

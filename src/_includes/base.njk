@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} · Natalie Taylor</title>
+  <meta name="description" content="{{ description or 'Content designer and copywriter - marketing, ecommerce and content strategy portfolio.' }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="/">Natalie Taylor</a>
+    <nav class="site-nav">
+      <a href="/work/">Work</a>
+      <a href="/case-studies/">Case Studies</a>
+      <a href="/copy-samples/">Copy Samples</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {% year %} Natalie Taylor &middot; <a href="mailto:natataylor@gmail.com">natataylor@gmail.com</a></p>
+  </footer>
+</body>
+</html>
