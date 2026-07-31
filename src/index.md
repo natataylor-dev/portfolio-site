@@ -23,10 +23,10 @@ positioning statement and featured work links once case studies are drafted.
 {% for item in collections.caseStudies | reverse %}
   <li>
     <p class="eyebrow">Case Study</p>
-    <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+    <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
     <p>{{ item.data.summary }}</p>
   </li>
 {% endfor %}
 </ul>
 
-[See all Copy Samples &rarr;](/copy-samples/)
+[See all Copy Samples &rarr;]({{ '/copy-samples/' | url }})

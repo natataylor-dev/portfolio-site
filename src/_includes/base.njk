@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} · Natalie Taylor</title>
   <meta name="description" content="{{ description or 'Content designer and copywriter - marketing, ecommerce and content strategy portfolio.' }}">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <header class="site-header">
-    <a class="site-title" href="/">Natalie Taylor</a>
+    <a class="site-title" href="{{ '/' | url }}">Natalie Taylor</a>
     <nav class="site-nav">
-      <a href="/work/">Work</a>
-      <a href="/case-studies/">Case Studies</a>
-      <a href="/copy-samples/">Copy Samples</a>
-      <a href="/about/">About</a>
+      <a href="{{ '/work/' | url }}">Work</a>
+      <a href="{{ '/case-studies/' | url }}">Case Studies</a>
+      <a href="{{ '/copy-samples/' | url }}">Copy Samples</a>
+      <a href="{{ '/about/' | url }}">About</a>
     </nav>
   </header>
 

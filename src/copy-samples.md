@@ -11,7 +11,7 @@ permalink: /copy-samples/
 <ul class="card-list">
 {% for item in collections.copySamples %}
   <li>
-    <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+    <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
     <p>{{ item.data.summary }}</p>
   </li>
 {% endfor %}
