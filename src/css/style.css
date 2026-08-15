@@ -5,13 +5,16 @@
   --accent: #b5651d;
   --border: #e4e0da;
   --max-width: 680px;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Nunito", "Helvetica Neue", Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  font-family: "Georgia", "Iowan Old Style", serif;
+  font-family: var(--font-body);
+  font-weight: 300;
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
@@ -39,7 +42,7 @@ body {
   margin-left: 1.25rem;
   color: var(--muted);
   text-decoration: none;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-body);
   font-size: 0.95rem;
 }
 
@@ -56,23 +59,26 @@ body {
   margin: 0 auto;
   padding: 2rem 1.5rem 3rem;
   color: var(--muted);
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-body);
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
 }
 
 h1, h2, h3 {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.25;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-h2 { font-size: 1.4rem; margin-top: 2.5rem; }
+h1 { font-size: 2.3rem; margin-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+
+.site-title { font-family: var(--font-heading); }
 
 a { color: var(--accent); }
 
 .eyebrow {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-body);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.75rem;
@@ -98,8 +104,202 @@ a { color: var(--accent); }
   border: 1px solid #eeddb8;
   border-radius: 4px;
   padding: 0.75rem 1rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-body);
   font-size: 0.85rem;
   color: #6b4f1d;
   margin-bottom: 1.5rem;
+}
+
+/* Case study heading hierarchy: short H1 (name) + styled sub-heading (the angle) */
+.case-subtitle {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0 0 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Hero evidence placeholder - sits directly under the sub-heading */
+.case-hero-placeholder {
+  background: repeating-linear-gradient(
+    45deg, #fff6e8, #fff6e8 10px, #fdf1de 10px, #fdf1de 20px
+  );
+  border: 1px dashed #d8b978;
+  border-radius: 6px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: #6b4f1d;
+  margin-bottom: 2rem;
+}
+
+/* Real hero image once a placeholder is swapped out */
+.case-hero-image {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 24px 48px -24px rgba(28, 28, 28, 0.35);
+  margin-bottom: 0.75rem;
+}
+
+/* Personal portrait on the About page - deliberately modest sized,
+   not full-bleed, since it's a photo of Natalie rather than evidence
+   of a piece of work. */
+.about-portrait {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 2rem;
+  border-radius: 8px;
+  box-shadow: 0 20px 40px -20px rgba(28, 28, 28, 0.35);
+}
+
+/* Headline stat row - for case studies with clear before/after numbers */
+.stat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-grid .stat { flex: 1 1 130px; }
+
+.stat-grid .stat-number {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.stat-grid .stat-label {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Comparison tables for outcomes with multiple data points */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+.stats-table th,
+.stats-table td {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.stats-table td.stat-figure {
+  font-weight: bold;
+  color: var(--accent);
+}
+
+/* Supporting evidence gallery - stacked, full-width so screenshots stay legible */
+.case-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.case-gallery figure { margin: 0; }
+
+.case-gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 20px 40px -22px rgba(28, 28, 28, 0.3);
+}
+
+.case-gallery figcaption {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 0.85rem;
+  padding-left: 0.85rem;
+  border-left: 2px solid var(--accent);
+}
+
+/* Side-by-side pair for portrait/email-shaped graphics - deliberately
+   NOT using img-bleed, since bleeding a tall portrait image out to
+   breakout width would make it enormous height-wise. Sits at a
+   sensible email-preview size instead. */
+.case-gallery-pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.case-gallery-pair figure {
+  flex: 1 1 220px;
+  max-width: 320px;
+  margin: 0;
+}
+
+.case-gallery-pair img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 20px 40px -22px rgba(28, 28, 28, 0.3);
+}
+
+.case-gallery-pair figcaption {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+/* Lets an image/gallery/placeholder run wider than the narrow text
+   column on desktop, so screenshots read as full images rather than
+   thumbnails squeezed into paragraph width. Safe on mobile - only
+   activates once there's room either side to breathe.
+
+   Note: elements with an explicit width (e.g. images set to 100%)
+   need their width recalculated too, not just their margins -
+   otherwise the negative margins just shove the box sideways instead
+   of growing it. Plain block elements (like the placeholder boxes,
+   which have no explicit width) expand correctly from the margins
+   alone.
+
+   This block is deliberately placed at the very end of the
+   stylesheet: CSS resolves equal-specificity rules by source order,
+   so keeping this last guarantees it always wins over earlier rules
+   like ".case-gallery img { width: 100% }" without needing to bump
+   up specificity artificially. */
+@media (min-width: 900px) {
+  .img-bleed {
+    margin-left: -134px;
+    margin-right: -134px;
+  }
+
+  img.img-bleed,
+  .img-bleed img {
+    width: calc(100% + 268px);
+    max-width: calc(100% + 268px);
+  }
 }
