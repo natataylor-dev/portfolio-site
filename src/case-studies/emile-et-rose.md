@@ -9,6 +9,7 @@ order: 4
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
+<p class="eyebrow case-skills">Skills employed: Promotional strategy · Data-led decision making · Brand governance</p>
 
 <div class="case-gallery-pair">
   <figure>
@@ -19,6 +20,23 @@ order: 4
     <img src="{{ '/images/emile-et-rose-free-delivery-email.jpg' | url }}" alt="Emile et Rose free UK delivery promotional email">
     <figcaption>Free delivery weekend promotion email</figcaption>
   </figure>
+</div>
+
+## Key wins
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <h3>Two new promotions, validated</h3>
+    <p>Introduced formats never used before, backed by real sales and margin data rather than instinct.</p>
+  </div>
+  <div class="skill-card">
+    <h3>+63% sales on 3-for-2</h3>
+    <p>A first-time promotion on the best-selling collection, run over a compressed four-day window.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Brand continuity, uninterrupted</h3>
+    <p>Owned strategy and sign-off across two full season launches during a maternity cover period, with zero disruption to tone of voice.</p>
+  </div>
 </div>
 
 As Ecommerce & Marketing Manager covering maternity leave at Emile et

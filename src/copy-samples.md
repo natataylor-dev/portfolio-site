@@ -1,12 +1,13 @@
 ---
 layout: base.njk
-title: Copy Samples
+title: Copywriting
 permalink: /copy-samples/
 ---
 
-# Copy Samples
+# Copywriting
 
-<p>Craft work: email, product copy, press and editorial writing.</p>
+<p class="eyebrow">Words matter</p>
+<p>Email, product copy, press and editorial writing: a few examples of copy with a clear purpose.</p>
 
 <ul class="card-list">
 {% for item in collections.copySamples %}

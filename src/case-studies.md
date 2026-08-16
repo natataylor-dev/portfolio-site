@@ -6,6 +6,7 @@ permalink: /case-studies/
 
 # Case Studies
 
+<p class="eyebrow">Direction matters</p>
 <p>Process-led work: strategy, journey mapping, taxonomy and brand voice
 built from scratch, mostly inside small, lean teams.</p>
 

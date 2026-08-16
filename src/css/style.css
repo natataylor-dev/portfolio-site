@@ -145,16 +145,104 @@ a { color: var(--accent); }
   margin-bottom: 0.75rem;
 }
 
-/* Personal portrait on the About page - deliberately modest sized,
-   not full-bleed, since it's a photo of Natalie rather than evidence
-   of a piece of work. */
+/* Understated photo credit line - sits under a hero image without
+   drawing attention to itself. */
+.photo-credit {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: right;
+  margin: 0 0 2rem;
+}
+
+/* Personal portrait on the About page - small and offset to one side
+   rather than a big centred hero, so text can run alongside it. Drops
+   the float on narrow screens where there isn't room for wrap. */
 .about-portrait {
   display: block;
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto 2rem;
+  width: 190px;
+  max-width: 42%;
+  float: right;
+  shape-outside: margin-box;
+  margin: 0.25rem 0 1.5rem 2rem;
   border-radius: 8px;
-  box-shadow: 0 20px 40px -20px rgba(28, 28, 28, 0.35);
+  box-shadow: 0 18px 36px -18px rgba(28, 28, 28, 0.35);
+}
+
+@media (max-width: 560px) {
+  .about-portrait {
+    float: none;
+    width: 150px;
+    max-width: 150px;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+/* "What I Do" card grid - a more graphical treatment than a plain
+   bullet list. Uses img-bleed alongside it to get extra width on
+   desktop for a proper multi-column grid. */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.skill-card {
+  padding: 1.3rem 1.4rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: 8px;
+}
+
+.skill-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.skill-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* "Words matter" pull-quote accent, used on the About page */
+.pull-quote {
+  margin: 2.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.5rem;
+  border-left: 3px solid var(--accent);
+}
+
+.pull-quote .quote-label {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--text);
+  margin: 0 0 0.5rem;
+}
+
+.pull-quote blockquote {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.pull-quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 /* Headline stat row - for case studies with clear before/after numbers */
@@ -183,6 +271,12 @@ a { color: var(--accent); }
   font-family: var(--font-body);
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+/* Skills eyebrow - sits under the case-subtitle, ahead of the hero
+   image, reusing the standard eyebrow treatment. */
+.case-skills {
+  margin: 0 0 2rem;
 }
 
 /* Comparison tables for outcomes with multiple data points */
