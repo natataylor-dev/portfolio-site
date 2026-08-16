@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Action Net Zero"
-subtitle: "Customer journey mapping"
+subtitle: "Customer journey mapping."
 summary: "Turning sustainability jargon into a sign-up flow people actually complete."
 tags: case-study
 order: 1
