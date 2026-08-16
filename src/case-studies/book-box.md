@@ -1,16 +1,34 @@
 ---
 layout: base.njk
-title: "Book Box"
-subtitle: "Building a new Calendar Club retail brand from scratch"
+title: "Calendar Club / Book Box"
+subtitle: "Building a new retail brand from scratch"
 summary: "Launching a full retail brand, from logo to store POS, in a 10–12 week turnaround."
 tags: case-study
-order: 5
+order: 3
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
+<p class="eyebrow case-skills">Skills employed: Brand development · Retail launch · Data-led creative</p>
 
-<img src="{{ '/images/book-box-princesshay-store.jpg' | url }}" alt="The Book Box storefront at Princesshay, Exeter" class="case-hero-image img-bleed">
+<img src="{{ '/images/book-box-princesshay-store.jpg' | url }}" alt="The Book Box storefront at Princesshay, Exeter" class="case-hero-image">
+
+## Key wins
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <h3>Brand built from scratch</h3>
+    <p>Name, identity and product range created from a blank page – no existing brand to build on.</p>
+  </div>
+  <div class="skill-card">
+    <h3>10–12 week turnaround</h3>
+    <p>Concept to store-ready across three sites, working closely with a single designer.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Data-led, not guessed at</h3>
+    <p>Every creative decision – range, palette, tone – grounded in Calendar Club's existing customer data.</p>
+  </div>
+</div>
 
 At Calendar Club, I was integral to the creation of Book Box, a new
 retail brand built from the ground up. Book Box launched into three

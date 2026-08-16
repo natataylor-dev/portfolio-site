@@ -4,13 +4,31 @@ title: "Wild Things Gifts"
 subtitle: "Differentiating overlapping product collections"
 summary: "Untangling decades of ambiguity between similar product ranges to help customers choose with confidence."
 tags: case-study
-order: 2
+order: 5
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
+<p class="eyebrow case-skills">Skills employed: Content strategy · Copywriting · Category differentiation</p>
 
-<img src="{{ '/images/wild-things-premium-crystals-comparison.jpg' | url }}" alt="Premium Austrian Crystals category page comparing four related Wild Things collections – Angel Pins, Pure Radiance, Crystal Radiance Angels and Crystal Radiance – each clearly distinguished from the others" class="case-hero-image img-bleed">
+<img src="{{ '/images/wild-things-premium-crystals-comparison.jpg' | url }}" alt="Premium Austrian Crystals category page comparing four related Wild Things collections – Angel Pins, Pure Radiance, Crystal Radiance Angels and Crystal Radiance – each clearly distinguished from the others" class="case-hero-image">
+
+## Key wins
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <h3>First reference point, from scratch</h3>
+    <p>Created the brand's first real content for collection differentiation – no back-catalogue to build on.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Multi-channel rollout</h3>
+    <p>Rewrote email, website and blog content collection-by-collection on a modest budget.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Fewer wrong-item orders</h3>
+    <p>Stronger product knowledge and more repeat orders since the new content went live.</p>
+  </div>
+</div>
 
 <p class="placeholder-note">Working note: a category page written to sit above four closely related collections, giving each one its own clear identity rather than leaving customers to work out the differences themselves.</p>
 
@@ -41,7 +59,7 @@ knowledge ahead of purchase, while website copy was rewritten
 collection-by-collection to give each range its own clear identity at
 the point of decision.
 
-<div class="case-gallery img-bleed">
+<div class="case-gallery">
   <figure>
     <img src="{{ '/images/wild-things-carded-crystal-dreams.jpg' | url }}" alt="Carded Crystal Dreams category page">
     <figcaption>Carded Crystal Dreams copy explicitly differentiates this range from its longstanding suncatcher sibling – same popular designs, reimagined with a 10mm crystal heart in place of the 20mm crystal ball.</figcaption>
@@ -52,7 +70,7 @@ the point of decision.
   </figure>
   <figure>
     <img src="{{ '/images/wild-things-product-of-month-angel.jpg' | url }}" alt="Product of the Month blog post for the Crystal Radiance Angel">
-    <figcaption>A "Product of the Month" blog post distinguishing the Crystal Radiance Angel from its Pure Radiance sibling design.</figcaption>
+    <figcaption>A 'Product of the Month' blog post distinguishing the Crystal Radiance Angel from its Pure Radiance sibling design.</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/wild-things-crystal-fantasies-banner.jpg' | url }}" alt="Crystal Fantasies homepage banner">

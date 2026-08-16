@@ -9,10 +9,26 @@ order: 1
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
+<p class="eyebrow case-skills">Skills employed: Journey mapping · UX writing · Stakeholder facilitation</p>
 
-<img src="{{ '/images/action-net-zero-miro-board.jpg' | url }}" alt="Action Net Zero information architecture, audience objectives and page layout planning, mapped out on a working Miro board" class="case-hero-image img-bleed">
+<img src="{{ '/images/action-net-zero-miro-board.jpg' | url }}" alt="Action Net Zero information architecture, audience objectives and page layout planning, mapped out on a working Miro board" class="case-hero-image">
 
-<p class="placeholder-note">Working note: this is the actual working Miro board used collaboratively with the client – covering the IA category tree, core audience objectives, and page-by-page layout planning – shown here as-is rather than a cleaned-up recreation.</p>
+## Key wins
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <h3>Fast, low-cost diagnosis</h3>
+    <p>Mapped drop-off points across multiple audience segments in a single collaborative session, with no research budget.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Jargon into plain English</h3>
+    <p>Reframed sustainability terminology audience by audience, so the same flow made sense to individuals and businesses alike.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Direction for what's next</h3>
+    <p>Gave the founder a clear, evidenced basis for sign-up copy and channel decisions going forward.</p>
+  </div>
+</div>
 
 Action Net Zero is a Bristol-based sustainability consultancy engaging
 multiple audience types, from individuals to small businesses,
