@@ -4,7 +4,7 @@
   --bg: #fdfcfa;
   --accent: #b5651d;
   --border: #e4e0da;
-  --max-width: 680px;
+  --max-width: 760px;
   --font-heading: "Playfair Display", Georgia, serif;
   --font-body: "Nunito", "Helvetica Neue", Arial, sans-serif;
 }
@@ -73,6 +73,15 @@ h1, h2, h3 {
 h1 { font-size: 2.3rem; margin-bottom: 0.5rem; }
 h2 { font-size: 1.5rem; margin-top: 2.5rem; }
 
+/* Homepage H1 doubles as a LinkedIn link - keep it reading as a
+   heading, not a typical blue link, with just a hover cue. */
+h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 a:hover { text-decoration: underline; }
+
 .site-title { font-family: var(--font-heading); }
 
 a { color: var(--accent); }
@@ -80,9 +89,10 @@ a { color: var(--accent); }
 .eyebrow {
   font-family: var(--font-body);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   font-size: 0.75rem;
-  color: var(--muted);
+  font-weight: 700;
+  color: var(--accent);
 }
 
 .card-list {
@@ -98,6 +108,48 @@ a { color: var(--accent); }
 
 .card-list h3 { margin: 0 0 0.25rem; font-size: 1.1rem; }
 .card-list p { margin: 0; color: var(--muted); }
+
+/* Homepage "Featured work" cards - clickable image tiles linking
+   straight through to a case study. Always full-width and stacked,
+   on both mobile and desktop, rather than a multi-column grid. */
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.featured-card {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 36px -18px rgba(28, 28, 28, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 40px -18px rgba(28, 28, 28, 0.45);
+}
+
+.featured-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.featured-card-title {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-top: 3px solid var(--accent);
+}
 
 .placeholder-note {
   background: #fff6e8;
@@ -155,6 +207,18 @@ a { color: var(--accent); }
   margin: 0 0 2rem;
 }
 
+/* Small closing footnote - for a minor factual update at the end of
+   a case study (e.g. a company's later status) without disrupting
+   the main narrative. */
+.case-footnote {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
 /* Personal portrait on the About page - small and offset to one side
    rather than a big centred hero, so text can run alongside it. Drops
    the float on narrow screens where there isn't room for wrap. */
@@ -183,9 +247,15 @@ a { color: var(--accent); }
    desktop for a proper multi-column grid. */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.1rem;
   margin: 1.5rem 0 2.5rem;
+}
+
+@media (min-width: 700px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .skill-card {
@@ -273,10 +343,69 @@ a { color: var(--accent); }
   color: var(--muted);
 }
 
-/* Skills eyebrow - sits under the case-subtitle, ahead of the hero
-   image, reusing the standard eyebrow treatment. */
+/* Plain copy-sample blockquote - for reproducing actual email/copy
+   text as-written, distinct from the italic .pull-quote treatment
+   used for personal quotes. */
+.site-main > blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 3px solid var(--border);
+  color: var(--text);
+}
+
+.site-main > blockquote p { margin: 0 0 0.75rem; }
+.site-main > blockquote p:last-child { margin-bottom: 0; }
+
+/* Skills employed line - sits under the case-subtitle, ahead of the
+   hero image. Both the label and the skills list stay uppercase for
+   consistency with the eyebrow style elsewhere; colour is what
+   differentiates the label from the list. */
 .case-skills {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--muted);
   margin: 0 0 2rem;
+}
+
+/* Tighter gap when two case-skills lines stack directly (e.g.
+   Objective followed by Call to action). */
+.case-skills + .case-skills {
+  margin-top: -1.5rem;
+}
+
+.case-skills .eyebrow-label {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-right: 0.5em;
+}
+
+/* Individual copy sample - gives each email/piece within a multi-
+   example section (e.g. Email copy on a copy-samples page) its own
+   clear section feel: a category eyebrow, a title, then a divider
+   above the next one. First one in a run has no top border/padding
+   since it follows straight on from the intro text. */
+.sample-section {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.sample-section:first-of-type {
+  margin-top: 1.5rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.sample-section .eyebrow { margin: 0 0 0.35rem; }
+
+.sample-section h3 {
+  font-size: 1.2rem;
+  margin: 0 0 1.25rem;
 }
 
 /* Comparison tables for outcomes with multiple data points */
@@ -347,8 +476,8 @@ a { color: var(--accent); }
 }
 
 .case-gallery-pair figure {
-  flex: 1 1 220px;
-  max-width: 320px;
+  flex: 1 1 240px;
+  max-width: 360px;
   margin: 0;
 }
 
@@ -387,13 +516,13 @@ a { color: var(--accent); }
    up specificity artificially. */
 @media (min-width: 900px) {
   .img-bleed {
-    margin-left: -134px;
-    margin-right: -134px;
+    margin-left: -160px;
+    margin-right: -160px;
   }
 
   img.img-bleed,
   .img-bleed img {
-    width: calc(100% + 268px);
-    max-width: calc(100% + 268px);
+    width: calc(100% + 320px);
+    max-width: calc(100% + 320px);
   }
 }
