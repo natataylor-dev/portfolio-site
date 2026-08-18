@@ -4,12 +4,12 @@ title: "Bluepoint Labels"
 subtitle: "Creating a niche D2C site – from strategy to build"
 summary: "Buyer personas, category hierarchy and product range built for a niche industrial labels business moving into direct-to-consumer sales."
 tags: case-study
-order: 2
+order: 4
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="eyebrow case-skills">Skills employed: Buyer personas · Information architecture · Category strategy</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Buyer personas · IA · Category strategy · Shopify site build</p>
 
 <img src="{{ '/images/bluepoint-site-screenshot.jpg' | url }}" alt="Bluepoint Labels website homepage" class="case-hero-image">
 
@@ -30,7 +30,7 @@ order: 2
   </div>
 </div>
 
-Bluepoint Labels' existing website was built for its B2B customer
+<a href="https://bluepointlabels.co.uk/" target="_blank" rel="noopener">Bluepoint Labels'</a> existing website was built for its B2B customer
 base: larger buyers, or people who already knew exactly what
 industrial-strength labels – printed or plain – they needed for their
 printing or industrial setup, and who were happy to talk to an expert
@@ -46,15 +46,18 @@ small catalogue, rather than relying on breadth to cover for gaps in
 structure.
 
 Working closely with the Business Development Manager and the Sales
-and Marketing Co-ordinator, I helped build a basic marketing plan and buyer personas
-from the ground up, then used those personas to shape the site's
-information architecture and category hierarchy – organising the
-range clearly by industry type, so customers without specialist
-knowledge could still navigate confidently to the right product. The
-site was also built with an eye on what came next: structured so the
-fastest-moving, most popular lines could be tracked and used to
-inform future range and content decisions, rather than treating launch
-as the finish line.
+and Marketing Co-ordinator, I helped build a basic marketing plan and
+buyer personas from the ground up, then used those personas to shape
+the site's information architecture and category hierarchy –
+organising the range clearly by industry type, so customers without
+specialist knowledge could still navigate confidently to the right
+product. I also set up and built the Shopify site itself, again
+working closely with the Business Development Manager and Marketing
+Co-ordinator to get the product, structure and content right before
+launch. The site was also built with an eye on what came next:
+structured so the fastest-moving, most popular lines could be tracked
+and used to inform future range and content decisions, rather than
+treating launch as the finish line.
 
 The result is a live framework that made a specialist product range
 genuinely navigable for a new type of customer, while doubling as an

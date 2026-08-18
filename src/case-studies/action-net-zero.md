@@ -4,12 +4,12 @@ title: "Action Net Zero"
 subtitle: "Customer journey mapping"
 summary: "Turning sustainability jargon into a sign-up flow people actually complete."
 tags: case-study
-order: 1
+order: 5
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="eyebrow case-skills">Skills employed: Journey mapping · UX writing · Stakeholder facilitation</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Journey mapping · UX writing · Client collaboration</p>
 
 <img src="{{ '/images/action-net-zero-miro-board.jpg' | url }}" alt="Action Net Zero information architecture, audience objectives and page layout planning, mapped out on a working Miro board" class="case-hero-image">
 
@@ -46,3 +46,7 @@ terminology that meant different things to different segments.
 The output reshaped the sign-up copy and structure around plain-English
 framing per audience segment, directly informing messaging and channel
 decisions going forward.
+
+<p class="case-footnote">Action Net Zero wound down its active local
+campaigns, with founder <a href="https://www.linkedin.com/in/pam-barbato-1b55829/" target="_blank" rel="noopener">Pam Barbato</a> moving on to other ESG advisory
+roles, including with Sequestra, in August 2025.</p>

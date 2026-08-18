@@ -12,7 +12,7 @@ permalink: /about/
 Twenty years of my career sit under titles like Marketing Manager and
 Ecommerce & Marketing Manager: none of them mention 'creative
 direction', 'content designer' or 'copywriter', but look at what
-actually filled those roles, and the throughline is clear.
+actually filled those roles, and the thread is clear.
 
 ## What I Do
 
@@ -20,7 +20,7 @@ actually filled those roles, and the throughline is clear.
   <p class="quote-label">words matter</p>
   <blockquote>
     "Off I go, rummaging about in books for sayings which please me."
-    <cite>— Michel de Montaigne</cite>
+    <cite>– Michel de Montaigne</cite>
   </blockquote>
 </div>
 
@@ -77,7 +77,7 @@ get made in isolation from each other.
   <p class="quote-label">direction matters</p>
   <blockquote>
     "No wind favors he who has no destined port."
-    <cite>— Seneca</cite>
+    <cite>– Seneca</cite>
   </blockquote>
 </div>
 
@@ -92,6 +92,6 @@ can build the thinking from scratch, under real constraints, and still
 land on something that measurably works – that's what the case studies
 here are trying to show.
 
-Twenty years in, that's still the throughline: knowing what a piece of
+Twenty years in, that's still the thread: knowing what a piece of
 content, a campaign or a career move is actually for, before worrying
 about how polished it looks getting there.

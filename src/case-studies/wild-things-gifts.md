@@ -4,12 +4,12 @@ title: "Wild Things Gifts"
 subtitle: "Differentiating overlapping product collections"
 summary: "Untangling decades of ambiguity between similar product ranges to help customers choose with confidence."
 tags: case-study
-order: 5
+order: 1
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="eyebrow case-skills">Skills employed: Content strategy · Copywriting · Category differentiation</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Content strategy · Copywriting · Category differentiation</p>
 
 <img src="{{ '/images/wild-things-premium-crystals-comparison.jpg' | url }}" alt="Premium Austrian Crystals category page comparing four related Wild Things collections – Angel Pins, Pure Radiance, Crystal Radiance Angels and Crystal Radiance – each clearly distinguished from the others" class="case-hero-image">
 
@@ -30,9 +30,7 @@ order: 5
   </div>
 </div>
 
-<p class="placeholder-note">Working note: a category page written to sit above four closely related collections, giving each one its own clear identity rather than leaving customers to work out the differences themselves.</p>
-
-Wild Things Gifts manufactures premium gift products, including crystal
+<a href="https://www.wildthingsgifts.com/" target="_blank" rel="noopener">Wild Things Gifts</a> manufactures premium gift products, including crystal
 suncatchers, bookmarks and pin badges, sold to trade and consumer
 customers across the UK and international markets. Several of its core
 collections shared close visual and material similarities, and over
@@ -62,19 +60,19 @@ the point of decision.
 <div class="case-gallery">
   <figure>
     <img src="{{ '/images/wild-things-carded-crystal-dreams.jpg' | url }}" alt="Carded Crystal Dreams category page">
-    <figcaption>Carded Crystal Dreams copy explicitly differentiates this range from its longstanding suncatcher sibling – same popular designs, reimagined with a 10mm crystal heart in place of the 20mm crystal ball.</figcaption>
+    <figcaption>Carded Crystal Dreams copy explicitly differentiates this range from its longstanding suncatcher sibling – same popular designs, reimagined with a 10mm crystal heart in place of the 20mm crystal ball</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/wild-things-crystal-dreams-collection.jpg' | url }}" alt="Crystal Dreams collection page">
-    <figcaption>The original Crystal Dreams suncatcher collection page it's differentiated against.</figcaption>
+    <figcaption>The original Crystal Dreams suncatcher collection page it's differentiated against</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/wild-things-product-of-month-angel.jpg' | url }}" alt="Product of the Month blog post for the Crystal Radiance Angel">
-    <figcaption>A 'Product of the Month' blog post distinguishing the Crystal Radiance Angel from its Pure Radiance sibling design.</figcaption>
+    <figcaption>A 'Product of the Month' blog post distinguishing the Crystal Radiance Angel from its Pure Radiance sibling design</figcaption>
   </figure>
   <figure>
     <img src="{{ '/images/wild-things-crystal-fantasies-banner.jpg' | url }}" alt="Crystal Fantasies homepage banner">
-    <figcaption>Homepage banner introducing a new collection, Crystal Fantasies, with clear naming and positioning from launch.</figcaption>
+    <figcaption>Homepage banner introducing a new collection, Crystal Fantasies, with clear naming and positioning from launch</figcaption>
   </figure>
 </div>
 

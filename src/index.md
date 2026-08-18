@@ -3,30 +3,52 @@ layout: base.njk
 title: Home
 ---
 
-<p class="eyebrow">Copy writing and content design</p>
+<p class="eyebrow">Copywriting, Content Design and Marketing Strategy</p>
 
-# Natalie Taylor
+# <a href="https://www.linkedin.com/in/natataylor/" target="_blank" rel="noopener">Natalie Taylor</a>
 
-[PLACEHOLDER: one or two sentence positioning statement -
-e.g. "I turn complex marketing and ecommerce operations into clear,
-on-brand, conversion-focused content — 15+ years across retail,
-ecommerce and consultancy."]
+Most of my career has sat under titles like Marketing Manager or
+Ecommerce & Marketing Manager, not copywriter or content designer.
+However, the thread has always been the same: making sense of a
+complicated range or a confusing process, then writing my way to
+something clearer that actually lands with the audience. This has
+usually taken place inside small teams without much time or budget to
+spare, which has taught me to work efficiently, stay close to the
+actual problem, and get things over the finish line.
 
-<div class="placeholder-note">
-This is placeholder copy for the initial build. Replace with real
-positioning statement and featured work links once case studies are drafted.
+<div class="pull-quote">
+  <p class="quote-label">words matter</p>
+  <blockquote>
+    "Off I go, rummaging about in books for sayings which please me."
+    <cite>– Michel de Montaigne</cite>
+  </blockquote>
 </div>
 
 ## Featured work
 
-<ul class="card-list">
-{% for item in collections.caseStudies | reverse %}
-  <li>
-    <p class="eyebrow">Case Study</p>
-    <h3><a href="{{ item.url | url }}">{{ item.data.title }}</a></h3>
-    <p>{{ item.data.summary }}</p>
-  </li>
-{% endfor %}
-</ul>
+<div class="featured-grid">
+  <a class="featured-card" href="{{ '/case-studies/wild-things-gifts/' | url }}">
+    <img src="{{ '/images/wild-things-homepage-card.jpg' | url }}" alt="Wild Things Gifts case study">
+    <span class="featured-card-title">Wild Things Gifts</span>
+  </a>
+  <a class="featured-card" href="{{ '/case-studies/emile-et-rose/' | url }}">
+    <img src="{{ '/images/emile-et-rose-homepage-card.jpg' | url }}" alt="Emile et Rose case study">
+    <span class="featured-card-title">Emile et Rose</span>
+  </a>
+  <a class="featured-card" href="{{ '/case-studies/book-box/' | url }}">
+    <img src="{{ '/images/book-box-princesshay-store.jpg' | url }}" alt="Calendar Club / Book Box case study">
+    <span class="featured-card-title">The Book Box</span>
+  </a>
+</div>
 
-[See all Copy Samples &rarr;]({{ '/copy-samples/' | url }})
+<div class="pull-quote">
+  <p class="quote-label">direction matters</p>
+  <blockquote>
+    "No wind favors he who has no destined port."
+    <cite>– Seneca</cite>
+  </blockquote>
+</div>
+
+[See all Case Studies &rarr;]({{ '/case-studies/' | url }})
+
+[See all Copywriting &rarr;]({{ '/copy-samples/' | url }})

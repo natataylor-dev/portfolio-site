@@ -9,7 +9,7 @@ order: 3
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="eyebrow case-skills">Skills employed: Brand development · Retail launch · Data-led creative</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Brand development · Retail launch · Data-led creative</p>
 
 <img src="{{ '/images/book-box-princesshay-store.jpg' | url }}" alt="The Book Box storefront at Princesshay, Exeter" class="case-hero-image">
 
@@ -30,7 +30,7 @@ order: 3
   </div>
 </div>
 
-At Calendar Club, I was integral to the creation of Book Box, a new
+At <a href="https://www.calendarclub.co.uk/" target="_blank" rel="noopener">Calendar Club</a>, I was integral to the creation of Book Box, a new
 retail brand built from the ground up. Book Box launched into three
 stores in its initial year, including Bluewater in Kent and
 Princesshay in Exeter, using the same short-term retail format that

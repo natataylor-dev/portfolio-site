@@ -4,12 +4,12 @@ title: "Emile et Rose"
 subtitle: "Brand continuity and data-led promotional strategy"
 summary: "Introducing two new promotional formats during a maternity cover period, backed by margin and channel data, without breaking brand consistency."
 tags: case-study
-order: 4
+order: 2
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="eyebrow case-skills">Skills employed: Promotional strategy · Data-led decision making · Brand governance</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Promotional strategy · Data-led decision making · Brand governance</p>
 
 <div class="case-gallery-pair">
   <figure>
@@ -39,8 +39,8 @@ order: 4
   </div>
 </div>
 
-As Ecommerce & Marketing Manager covering maternity leave at Emile et
-Rose, a premium D2C babywear brand, I owned strategy, planning and
+As Ecommerce & Marketing Manager covering maternity leave at <a href="https://www.emile-et-rose.co.uk/" target="_blank" rel="noopener">Emile et
+Rose</a>, a premium D2C babywear brand, I owned strategy, planning and
 execution end to end across two annual season launches – Spring/Summer
 in March and Autumn/Winter in September – spanning email, Google Ads
 and Meta Ads. Every piece of on-site content, including copy written
