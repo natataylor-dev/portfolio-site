@@ -5,6 +5,9 @@ subtitle: "Brand continuity and data-led promotional strategy"
 summary: "Introducing two new promotional formats during a maternity cover period, backed by margin and channel data, without breaking brand consistency."
 tags: case-study
 order: 2
+cardImage: /images/emile-et-rose-homepage-card.jpg
+cardAlt: "Emile et Rose case study"
+skills: "Promotional strategy · Data-led decision making · Brand governance"
 ---
 
 # {{ title }}

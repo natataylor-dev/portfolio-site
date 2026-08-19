@@ -5,6 +5,9 @@ subtitle: "Differentiating overlapping product collections"
 summary: "Untangling decades of ambiguity between similar product ranges to help customers choose with confidence."
 tags: case-study
 order: 1
+cardImage: /images/wild-things-homepage-card.jpg
+cardAlt: "Wild Things Gifts case study"
+skills: "Content strategy · Copywriting · Category differentiation"
 ---
 
 # {{ title }}

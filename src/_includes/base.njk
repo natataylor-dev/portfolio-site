@@ -13,9 +13,15 @@
 <body>
   <header class="site-header">
     <a class="site-title" href="{{ '/' | url }}">Natalie Taylor</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
     <nav class="site-nav">
       <a href="{{ '/case-studies/' | url }}">Case Studies</a>
-      <a href="{{ '/copy-samples/' | url }}">Copywriting</a>
+      <a href="{{ '/copywriting/' | url }}">Copywriting</a>
       <a href="{{ '/about/' | url }}">About</a>
       <a href="https://www.linkedin.com/in/natataylor/" target="_blank" rel="noopener">Find me on LinkedIn</a>
     </nav>

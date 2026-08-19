@@ -30,14 +30,17 @@ actual problem, and get things over the finish line.
   <a class="featured-card" href="{{ '/case-studies/wild-things-gifts/' | url }}">
     <img src="{{ '/images/wild-things-homepage-card.jpg' | url }}" alt="Wild Things Gifts case study">
     <span class="featured-card-title">Wild Things Gifts</span>
+    <span class="featured-card-skills"><span class="eyebrow-label">Skills employed:</span>Content strategy · Copywriting · Category differentiation</span>
   </a>
   <a class="featured-card" href="{{ '/case-studies/emile-et-rose/' | url }}">
     <img src="{{ '/images/emile-et-rose-homepage-card.jpg' | url }}" alt="Emile et Rose case study">
     <span class="featured-card-title">Emile et Rose</span>
+    <span class="featured-card-skills"><span class="eyebrow-label">Skills employed:</span>Promotional strategy · Data-led decision making · Brand governance</span>
   </a>
   <a class="featured-card" href="{{ '/case-studies/book-box/' | url }}">
     <img src="{{ '/images/book-box-princesshay-store.jpg' | url }}" alt="Calendar Club / Book Box case study">
     <span class="featured-card-title">The Book Box</span>
+    <span class="featured-card-skills"><span class="eyebrow-label">Skills employed:</span>Brand development · Retail launch · Data-led creative</span>
   </a>
 </div>
 
@@ -51,4 +54,4 @@ actual problem, and get things over the finish line.
 
 [See all Case Studies &rarr;]({{ '/case-studies/' | url }})
 
-[See all Copywriting &rarr;]({{ '/copy-samples/' | url }})
+[See all Copywriting &rarr;]({{ '/copywriting/' | url }})

@@ -5,6 +5,9 @@ subtitle: "Press & product copy"
 summary: "Press and trade coverage, blog writing and email copy for a gift industry manufacturer and wholesaler."
 tags: copy-sample
 order: 1
+cardImage: /images/wild-things-homepage-card.jpg
+cardAlt: "Wild Things Gifts copywriting samples"
+skills: "Press release writing · Blog & SEO content · Email copywriting"
 ---
 
 # {{ title }}

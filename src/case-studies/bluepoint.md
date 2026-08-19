@@ -5,11 +5,14 @@ subtitle: "Creating a niche D2C site – from strategy to build"
 summary: "Buyer personas, category hierarchy and product range built for a niche industrial labels business moving into direct-to-consumer sales."
 tags: case-study
 order: 4
+cardImage: /images/bluepoint-site-screenshot.jpg
+cardAlt: "Bluepoint Labels case study"
+skills: "Shopify site build · Buyer personas · IA · Category strategy"
 ---
 
 # {{ title }}
 <p class="case-subtitle">{{ subtitle }}</p>
-<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Buyer personas · IA · Category strategy · Shopify site build</p>
+<p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Shopify site build · Buyer personas · IA · Category strategy</p>
 
 <img src="{{ '/images/bluepoint-site-screenshot.jpg' | url }}" alt="Bluepoint Labels website homepage" class="case-hero-image">
 

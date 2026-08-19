@@ -5,6 +5,9 @@ subtitle: "Customer journey mapping"
 summary: "Turning sustainability jargon into a sign-up flow people actually complete."
 tags: case-study
 order: 5
+cardImage: /images/action-net-zero-miro-board.jpg
+cardAlt: "Action Net Zero case study"
+skills: "Journey mapping · UX writing · Client collaboration"
 ---
 
 # {{ title }}
