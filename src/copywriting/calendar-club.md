@@ -5,6 +5,9 @@ subtitle: "Email campaigns"
 summary: "Campaign and automation copy behind a 190,000+ subscriber base and 10M+ annual email sends."
 tags: copy-sample
 order: 3
+cardImage: /images/calendar-club-copywriting-card.jpg
+cardAlt: "Calendar Club copywriting samples"
+skills: "Email campaign planning · Personalisation strategy · Promotional copywriting"
 ---
 
 # {{ title }}

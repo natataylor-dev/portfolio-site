@@ -5,6 +5,9 @@ subtitle: "Building a new retail brand from scratch"
 summary: "Launching a full retail brand, from logo to store POS, in a 10–12 week turnaround."
 tags: case-study
 order: 3
+cardImage: /images/book-box-princesshay-store.jpg
+cardAlt: "Calendar Club / Book Box case study"
+skills: "Brand development · Retail launch · Data-led creative"
 ---
 
 # {{ title }}

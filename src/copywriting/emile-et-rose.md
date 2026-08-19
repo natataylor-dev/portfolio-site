@@ -5,6 +5,9 @@ subtitle: "Email & product copy"
 summary: "Site copy, email content and paid social creative for a premium D2C babywear brand."
 tags: copy-sample
 order: 2
+cardImage: /images/emile-et-rose-copywriting-card.jpg
+cardAlt: "Emile et Rose copywriting samples"
+skills: "Email copywriting · Tone of voice · Campaign strategy"
 ---
 
 # {{ title }}

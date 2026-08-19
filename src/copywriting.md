@@ -1,24 +1,23 @@
 ---
 layout: base.njk
-title: Case Studies
-permalink: /case-studies/
+title: Copywriting
+permalink: /copywriting/
 ---
 
-# Case Studies
+# Copywriting
 
-<p>Process-led work: strategy, journey mapping, taxonomy and brand voice
-built from scratch, mostly inside small, lean teams.</p>
+<p>Email, product copy, press and editorial writing: a few examples of copy with a clear purpose.</p>
 
 <div class="pull-quote">
-  <p class="quote-label">direction matters</p>
+  <p class="quote-label">words matter</p>
   <blockquote>
-    "No wind favors he who has no destined port."
-    <cite>– Seneca</cite>
+    "Off I go, rummaging about in books for sayings which please me."
+    <cite>– Michel de Montaigne</cite>
   </blockquote>
 </div>
 
 <div class="featured-grid">
-{% for item in collections.caseStudies %}
+{% for item in collections.copySamples %}
   <a class="featured-card" href="{{ item.url | url }}">
     <img src="{{ item.data.cardImage | url }}" alt="{{ item.data.cardAlt }}" style="object-position: {{ item.data.cardPosition | default: "center" }};">
     <span class="featured-card-title">{{ item.data.title }}</span>
