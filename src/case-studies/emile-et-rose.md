@@ -14,17 +14,6 @@ skills: "Promotional strategy · Data-led decision making · Brand governance"
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Promotional strategy · Data-led decision making · Brand governance</p>
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/emile-et-rose-3for2-email.jpg' | url }}" alt="Emile et Rose 3-for-2 all-in-ones promotional email">
-    <figcaption>3-for-2 promotion email</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/images/emile-et-rose-free-delivery-email.jpg' | url }}" alt="Emile et Rose free UK delivery promotional email">
-    <figcaption>Free delivery weekend promotion email</figcaption>
-  </figure>
-</div>
-
 ## Key wins
 
 <div class="skills-grid">
@@ -41,6 +30,8 @@ skills: "Promotional strategy · Data-led decision making · Brand governance"
     <p>Owned strategy and sign-off across two full season launches during a maternity cover period, with zero disruption to tone of voice.</p>
   </div>
 </div>
+
+<h2 class="case-section-heading">Background</h2>
 
 As Ecommerce & Marketing Manager covering maternity leave at <a href="https://www.emile-et-rose.co.uk/" target="_blank" rel="noopener">Emile et
 Rose</a>, a premium D2C babywear brand, I owned strategy, planning and
@@ -59,6 +50,8 @@ justifying it with real numbers rather than instinct, since there was
 no room for a change that damaged margin or brand trust while the
 usual decision-maker was away.
 
+<h2 class="case-section-heading">Tactics</h2>
+
 I identified an opportunity to trial a 3-for-2 promotion, a format
 never used before, on the brand's best-selling collection: baby
 all-in-ones. High stock volumes and a broad range of designs meant
@@ -73,6 +66,19 @@ drive sales while keeping tighter control over cost than a permanent
 lower threshold would have allowed. I built a standalone promotional
 campaign around one such weekend across email, paid and organic
 social, and Google Ads.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/emile-et-rose-3for2-email.jpg' | url }}" alt="Emile et Rose 3-for-2 all-in-ones promotional email">
+    <figcaption>3-for-2 promotion email</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/images/emile-et-rose-free-delivery-email.jpg' | url }}" alt="Emile et Rose free UK delivery promotional email">
+    <figcaption>Free delivery weekend promotion email</figcaption>
+  </figure>
+</div>
+
+<h2 class="case-section-heading">Results</h2>
 
 <div class="stat-grid">
   <div class="stat">
@@ -128,3 +134,5 @@ social, and Google Ads.
 Both formats were validated as repeatable additions to the promotional
 calendar, with a recommendation to use them ahead of flash sales or in
 quiet periods to counter promo fatigue.
+
+Take a read of my <a href="{{ '/copywriting/emile-et-rose/' | url }}">Emile et Rose</a> copywriting pieces.

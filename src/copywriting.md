@@ -6,7 +6,7 @@ permalink: /copywriting/
 
 # Copywriting
 
-<p>Email, product copy, press and editorial writing: a few examples of copy with a clear purpose.</p>
+<p>Email, web product and category copy, press and editorial writing: you'll find a few examples of copy, each with a clear purpose.</p>
 
 <div class="pull-quote">
   <p class="quote-label">words matter</p>

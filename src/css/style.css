@@ -41,10 +41,10 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
+  gap: 1.25rem;
 }
 
 .site-nav a {
-  margin-left: 1.25rem;
   color: var(--muted);
   text-decoration: none;
   font-family: var(--font-body);
@@ -53,6 +53,59 @@ body {
 }
 
 .site-nav a:hover { color: var(--accent); }
+
+/* Dropdown for Case Studies / Copywriting - hover-revealed on
+   desktop, always expanded (no hover needed) once the mobile menu
+   is open. */
+.nav-item {
+  position: relative;
+}
+
+.nav-item > a::after {
+  content: "\25BE";
+  display: inline-block;
+  margin-left: 0.35em;
+  font-size: 0.65em;
+  vertical-align: middle;
+  color: var(--muted);
+}
+
+.nav-dropdown {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0.5rem 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 18px 36px -18px rgba(28, 28, 28, 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  z-index: 20;
+}
+
+.nav-item:hover .nav-dropdown,
+.nav-item:focus-within .nav-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.nav-dropdown li { margin: 0; }
+
+.nav-dropdown a {
+  display: block;
+  margin: 0;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.88rem;
+}
+
+.nav-dropdown a:hover { background: rgba(28, 28, 28, 0.04); }
 
 .nav-toggle-checkbox { display: none; }
 
@@ -83,6 +136,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     flex-basis: 100%;
+    gap: 0.9rem;
     margin-top: 1.25rem;
   }
 
@@ -90,14 +144,24 @@ body {
     display: flex;
   }
 
-  .site-nav a {
-    margin-left: 0;
-    margin-top: 0.9rem;
+  .nav-item { width: 100%; }
+
+  .nav-dropdown {
+    position: static;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+    padding: 0.6rem 0 0 1rem;
+    margin: 0;
   }
 
-  .site-nav a:first-child {
-    margin-top: 0;
-  }
+  .nav-dropdown li + li { margin-top: 0.6rem; }
+
+  .nav-dropdown a { padding: 0; }
 }
 
 .site-main {
@@ -124,6 +188,15 @@ h1, h2, h3 {
 
 h1 { font-size: 2.3rem; margin-bottom: 0.5rem; }
 h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+
+/* Keyline between narrative sections (e.g. Background / Tactics /
+   Results) - same line weight as the one under the case-subtitle,
+   sitting above the heading rather than under it. */
+h2.case-section-heading {
+  margin-top: 3rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--border);
+}
 
 /* Homepage H1 doubles as a LinkedIn link - keep it reading as a
    heading, not a typical blue link, with just a hover cue. */
@@ -415,15 +488,18 @@ a { color: var(--accent); }
 /* Plain copy-sample blockquote - for reproducing actual email/copy
    text as-written, distinct from the italic .pull-quote treatment
    used for personal quotes. */
-.site-main > blockquote {
+.site-main > blockquote,
+.sample-section > blockquote {
   margin: 1.5rem 0;
   padding: 0.25rem 0 0.25rem 1.25rem;
   border-left: 3px solid var(--border);
   color: var(--text);
 }
 
-.site-main > blockquote p { margin: 0 0 0.75rem; }
-.site-main > blockquote p:last-child { margin-bottom: 0; }
+.site-main > blockquote p,
+.sample-section > blockquote p { margin: 0 0 0.75rem; }
+.site-main > blockquote p:last-child,
+.sample-section > blockquote p:last-child { margin-bottom: 0; }
 
 /* Skills employed line - sits under the case-subtitle, ahead of the
    hero image. Both the label and the skills list stay uppercase for
@@ -522,6 +598,40 @@ a { color: var(--accent); }
   box-shadow: 0 20px 40px -22px rgba(28, 28, 28, 0.3);
 }
 
+/* A reproduced piece of written copy standing in for a screenshot
+   within the gallery - same left-rule treatment as blockquotes
+   elsewhere on the site. */
+.case-gallery blockquote {
+  margin: 0;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 3px solid var(--border);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.case-gallery blockquote p { margin: 0 0 0.85rem; }
+.case-gallery blockquote p:last-child { margin-bottom: 0; }
+
+/* "More ..." reveal for long reproduced copy - collapsed by default,
+   styled as a plain text link rather than a default disclosure
+   triangle. */
+.case-gallery-more summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  list-style: none;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.case-gallery-more summary::-webkit-details-marker { display: none; }
+
+.case-gallery-more summary:hover { text-decoration: underline; }
+
+.case-gallery-more[open] summary { margin-bottom: 0.85rem; }
+
+.case-gallery-more p:last-of-type { margin-bottom: 0; }
+
 .case-gallery figcaption {
   font-family: var(--font-body);
   font-style: italic;
@@ -537,11 +647,60 @@ a { color: var(--accent); }
    NOT using img-bleed, since bleeding a tall portrait image out to
    breakout width would make it enormous height-wise. Sits at a
    sensible email-preview size instead. */
+/* Side-by-side collection comparison panels - a boxed feature that
+   sits under a hero image to spell out how two similar collections
+   are differentiated. */
+.collection-compare {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 1.5rem 0 2.5rem;
+  overflow: hidden;
+}
+
+.collection-compare-panel {
+  flex: 1 1 260px;
+  padding: 1.5rem 1.75rem;
+}
+
+.collection-compare-panel:not(:first-child) {
+  border-top: 1px solid var(--border);
+}
+
+@media (min-width: 700px) {
+  .collection-compare-panel:not(:first-child) {
+    border-top: none;
+    border-left: 1px solid var(--border);
+  }
+}
+
+.collection-compare-panel h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+}
+
+.collection-compare-panel p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
 .case-gallery-pair {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 2rem;
+}
+
+/* Inside a sample-section, the email graphic sits alongside the
+   reproduced copy (a blockquote indented 1.25rem + its 3px rule) -
+   indent the image the same amount so their left edges line up. */
+.sample-section .case-gallery-pair {
+  margin-left: calc(1.25rem + 3px);
 }
 
 .case-gallery-pair figure {

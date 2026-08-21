@@ -14,8 +14,6 @@ skills: "Shopify site build · Buyer personas · IA · Category strategy"
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Shopify site build · Buyer personas · IA · Category strategy</p>
 
-<img src="{{ '/images/bluepoint-site-screenshot.jpg' | url }}" alt="Bluepoint Labels website homepage" class="case-hero-image">
-
 ## Key wins
 
 <div class="skills-grid">
@@ -33,6 +31,8 @@ skills: "Shopify site build · Buyer personas · IA · Category strategy"
   </div>
 </div>
 
+<h2 class="case-section-heading">Background</h2>
+
 <a href="https://bluepointlabels.co.uk/" target="_blank" rel="noopener">Bluepoint Labels'</a> existing website was built for its B2B customer
 base: larger buyers, or people who already knew exactly what
 industrial-strength labels – printed or plain – they needed for their
@@ -48,6 +48,8 @@ deliberately kept limited. The site had to do a lot of work with a
 small catalogue, rather than relying on breadth to cover for gaps in
 structure.
 
+<h2 class="case-section-heading">Tactics</h2>
+
 Working closely with the Business Development Manager and the Sales
 and Marketing Co-ordinator, I helped build a basic marketing plan and
 buyer personas from the ground up, then used those personas to shape
@@ -61,6 +63,10 @@ launch. The site was also built with an eye on what came next:
 structured so the fastest-moving, most popular lines could be tracked
 and used to inform future range and content decisions, rather than
 treating launch as the finish line.
+
+<img src="{{ '/images/bluepoint-site-screenshot.jpg' | url }}" alt="Bluepoint Labels website homepage" class="case-hero-image">
+
+<h2 class="case-section-heading">Results</h2>
 
 The result is a live framework that made a specialist product range
 genuinely navigable for a new type of customer, while doubling as an

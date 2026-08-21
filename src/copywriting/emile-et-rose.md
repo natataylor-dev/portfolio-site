@@ -14,14 +14,6 @@ skills: "Email copywriting · Tone of voice · Campaign strategy"
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Email copywriting · Tone of voice · Campaign strategy</p>
 
-<a href="https://www.emile-et-rose.co.uk/" target="_blank" rel="noopener">Emile et Rose</a> is a traditional babywear brand based in Devon,
-with a tone of voice that's warm, friendly, respectful and sweet –
-never too intrusive. The audience is largely women, and the brand's
-classic British style attracts an affluent demographic. Email had to
-hold that tone consistently across three different jobs: seasonal
-launches, promotional campaigns, and deep dives on the quality and
-craftsmanship of the garments themselves.
-
 ## Key wins
 
 <div class="skills-grid">
@@ -39,16 +31,18 @@ craftsmanship of the garments themselves.
   </div>
 </div>
 
+<a href="https://www.emile-et-rose.co.uk/" target="_blank" rel="noopener">Emile et Rose</a> is a traditional babywear brand based in Devon,
+with a tone of voice that's warm, friendly, respectful and sweet –
+never too intrusive. The audience is largely women, and the brand's
+classic British style attracts an affluent demographic. Email had to
+hold that tone consistently across three different jobs: seasonal
+launches, promotional campaigns, and deep dives on the quality and
+craftsmanship of the garments themselves.
+
 <div class="sample-section">
 
 <p class="eyebrow">Seasonal launch</p>
 <h3>Easter Shop</h3>
-
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/emile-et-rose-easter-email.jpg' | url }}" alt="Emile et Rose Hoppy Days Ahead Easter email hero graphic">
-  </figure>
-</div>
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 launch the Easter shop with seasonal, on-brand playfulness, while
@@ -59,6 +53,12 @@ action:</span> hop over to the Easter Shop</p>
 A seasonal launch email for the brand's Easter collection, leaning
 into light wordplay ('hop', 'chick', 'egg-stra') while staying within
 the brand's warm, sweet, never-intrusive tone of voice.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/emile-et-rose-easter-email.jpg' | url }}" alt="Emile et Rose Hoppy Days Ahead Easter email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Hoppy Days are Just Ahead 🐰 Spring into Action 🌼**
 >
@@ -77,12 +77,6 @@ the brand's warm, sweet, never-intrusive tone of voice.
 <p class="eyebrow">Seasonal launch</p>
 <h3>AW23 Collection</h3>
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/emile-et-rose-aw23-email.jpg' | url }}" alt="Emile et Rose AW23 Collection launch email hero graphic">
-  </figure>
-</div>
-
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 launch the new seasonal collection and draw attention to garment
 craftsmanship and detailing, rather than price or promotion</p>
@@ -92,6 +86,12 @@ action:</span> shop AW23 now</p>
 A collection launch email built around fabric and construction detail
 – pintuck pleats, tulle, embroidery, checks – letting the quality of
 the garments themselves carry the copy rather than a seasonal hook.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/emile-et-rose-aw23-email.jpg' | url }}" alt="Emile et Rose AW23 Collection launch email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Say Hello to Autumn Winter 2023**
 >
@@ -113,12 +113,6 @@ the garments themselves carry the copy rather than a seasonal hook.
 <p class="eyebrow">Promotion</p>
 <h3>Flash Sale</h3>
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/emile-et-rose-flash-sale-email.jpg' | url }}" alt="Emile et Rose Flash Sale email hero graphic">
-  </figure>
-</div>
-
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 clear remaining Autumn/Winter stock with a short, high-urgency
 discount window, ahead of the next season's launch</p>
@@ -129,6 +123,12 @@ A weekend flash sale that typically closes out a season. Deliberately
 light on copy – limiting the text was part of the strategy, not an
 afterthought – so the email hits only what actually drives action: the
 discount itself, the styles it applies to, and how long it runs for.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/emile-et-rose-flash-sale-email.jpg' | url }}" alt="Emile et Rose Flash Sale email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Flash Sale Weekend | 50% off Autumn/Winter 2022 Styles**
 >
@@ -160,3 +160,5 @@ lower-stakes seasonal touchpoint whose job was simply to keep the
 brand present and on-tone between the harder-working promo and launch
 moments, a role that doesn't show up cleanly in performance data
 either.
+
+Read my <a href="{{ '/case-studies/emile-et-rose/' | url }}">Emile et Rose</a> case study: Brand continuity and data-led promotional strategy.
