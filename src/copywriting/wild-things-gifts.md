@@ -14,10 +14,6 @@ skills: "Press release writing · Blog & SEO content · Email copywriting"
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Press release writing · Blog & SEO content · Email copywriting</p>
 
-Three strands of copy for <a href="https://www.wildthingsgifts.com/" target="_blank" rel="noopener">Wild Things Gifts</a>: press and trade coverage,
-ongoing blog writing, and email marketing – each written for a
-different stage of the customer and stockist journey.
-
 ## Key wins
 
 <div class="skills-grid">
@@ -35,7 +31,21 @@ different stage of the customer and stockist journey.
   </div>
 </div>
 
+Three strands of copy for <a href="https://www.wildthingsgifts.com/" target="_blank" rel="noopener">Wild Things Gifts</a>: press and trade coverage,
+ongoing blog writing, and email marketing, each written for a
+different stage of the customer and stockist journey.
+
 ## Press & trade coverage
+
+I wrote these trade press pieces to editorial guidelines set by each
+publication, covering Wild Things' growth story and seasonal
+collections – new product launches, a growing team (including my own
+arrival as Marketing Manager), and a move to larger premises.
+Progressive Gifts & Home and Gifts Today, two leading UK gift trade
+titles, ran the copy almost word for word: a full-page Q&A-style
+feature with founder Jules Vahrman, a full-page product and
+collections round-up, and a supplier contribution – quoted directly –
+for a pet-themed gifting feature.
 
 <div class="case-gallery">
   <figure>
@@ -51,16 +61,6 @@ different stage of the customer and stockist journey.
     <figcaption>Gifts Today magazine, May/June 2026</figcaption>
   </figure>
 </div>
-
-I wrote these trade press pieces to editorial guidelines set by each
-publication, covering Wild Things' growth story and seasonal
-collections – new product launches, a growing team (including my own
-arrival as Marketing Manager), and a move to larger premises.
-Progressive Gifts & Home and Gifts Today, two leading UK gift trade
-titles, ran the copy almost word for word: a full-page Q&A-style
-feature with founder Jules Vahrman, a full-page product and
-collections round-up, and a supplier contribution – quoted directly –
-for a pet-themed gifting feature.
 
 Separately, I wrote and sent a self-initiated press release announcing
 new appointments to the Wild Things sales team, which Gifts Today
@@ -90,24 +90,26 @@ ideas, with SEO and organic traffic as a secondary objective.
 
 ## Email copy
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/wild-things-warehouse-sale-email.jpg' | url }}" alt="Wild Things Gifts Warehouse Sale email hero graphic">
-  </figure>
-</div>
+<div class="sample-section">
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
-clear stock ahead of the move, while reframing the sale as a growth
-story rather than a discount play</p>
+clear stock ahead of a warehouse expansion, whilst communicating the
+sale as a growth story rather than a pure discount promotion, with a
+secondary objective of encouraging award votes</p>
 <p class="case-skills"><span class="eyebrow-label">Call to
-action:</span> add sale items to basket, apply code WARE50 at
-checkout</p>
+action:</span> apply code WARE50 at checkout / vote for us</p>
 
 A trade email announcing a warehouse clearance sale ahead of a move to
 larger premises, giving stockists a practical reason (over 100 designs
 at half price) alongside the bigger growth story. The remainder of the
 email features key collections within the sale, with three products
 highlighted from each.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/wild-things-warehouse-sale-email.jpg' | url }}" alt="Wild Things Gifts Warehouse Sale email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Our 50% off April Warehouse Sale is Live – Celebrate our
 > Success!**
@@ -128,11 +130,9 @@ highlighted from each.
 > shopping basket and enter this code during checkout: **WARE50**. The
 > discount will be calculated automatically.
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/wild-things-pet-month-email.jpg' | url }}" alt="Wild Things Gifts April Pet Month email hero graphic">
-  </figure>
 </div>
+
+<div class="sample-section">
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 promote pet-themed collections ahead of Pet Month and Easter
@@ -146,8 +146,13 @@ spring collections, ready to ship for 2026) with a soft-sell ask:
 supporting a Gift of the Year People's Choice vote after a shortlisting
 earlier in the year.
 
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/wild-things-pet-month-email.jpg' | url }}" alt="Wild Things Gifts April Pet Month email hero graphic">
+  </figure>
+</div>
+
 > **Subject: A Glimmer of Spring / April Pet Month / Gift of the Year**
-> *(subject line variants tested)*
 >
 > It's Pet Month in April so to help you get ahead and select
 > something fresh and adorable for your range, we've collated our
@@ -169,11 +174,9 @@ earlier in the year.
 > we would be grateful if you could take a minute to vote for us in
 > the People's Choice Award.
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/wild-things-news-update-email.jpg' | url }}" alt="Wild Things Gifts New Products, Prices & Website email hero graphic">
-  </figure>
 </div>
+
+<div class="sample-section">
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 round up a busy period of news – website launch, new product ranges, a
@@ -185,6 +188,12 @@ A broader company-update email covering three pieces of news at once:
 a new website, new product ranges launched at Spring Fair, and a price
 increase on a small number of lines – shown here for variety, alongside
 the more single-purpose sale and seasonal emails above.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/wild-things-news-update-email.jpg' | url }}" alt="Wild Things Gifts New Products, Prices & Website email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Wild Things News - New Prices / New Website / New
 > Designs**
@@ -213,3 +222,7 @@ the more single-purpose sale and seasonal emails above.
 >
 > Happy Gift Buying,
 > The Wild Things Team
+
+</div>
+
+Read my <a href="{{ '/case-studies/wild-things-gifts/' | url }}">Wild Things Gifts</a> case study: Differentiating overlapping product collections.

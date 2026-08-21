@@ -14,8 +14,6 @@ skills: "Journey mapping · UX writing · Client collaboration"
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Journey mapping · UX writing · Client collaboration</p>
 
-<img src="{{ '/images/action-net-zero-miro-board.jpg' | url }}" alt="Action Net Zero information architecture, audience objectives and page layout planning, mapped out on a working Miro board" class="case-hero-image">
-
 ## Key wins
 
 <div class="skills-grid">
@@ -33,6 +31,8 @@ skills: "Journey mapping · UX writing · Client collaboration"
   </div>
 </div>
 
+<h2 class="case-section-heading">Background</h2>
+
 Action Net Zero is a Bristol-based sustainability consultancy engaging
 multiple audience types, from individuals to small businesses,
 through a single digital sign-up flow. Working freelance and directly
@@ -40,11 +40,17 @@ with the founder, with no existing content team or research budget,
 I needed to identify where different audiences were dropping off or
 getting lost, fast.
 
+<h2 class="case-section-heading">Tactics</h2>
+
 Rather than run a full formal research process, I used a lightweight,
 collaborative journey-mapping session (Miro, working live with the
 client) to segment audiences and surface where language and structure
 were creating friction – mostly around jargon-heavy sustainability
 terminology that meant different things to different segments.
+
+<img src="{{ '/images/action-net-zero-miro-board.jpg' | url }}" alt="Action Net Zero information architecture, audience objectives and page layout planning, mapped out on a working Miro board" class="case-hero-image">
+
+<h2 class="case-section-heading">Results</h2>
 
 The output reshaped the sign-up copy and structure around plain-English
 framing per audience segment, directly informing messaging and channel

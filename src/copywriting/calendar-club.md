@@ -14,6 +14,23 @@ skills: "Email campaign planning · Personalisation strategy · Promotional copy
 <p class="case-subtitle">{{ subtitle }}</p>
 <p class="case-skills"><span class="eyebrow-label">Skills employed:</span> Email campaign planning · Personalisation strategy · Promotional copywriting</p>
 
+## Key wins
+
+<div class="skills-grid">
+  <div class="skill-card">
+    <h3>10M+ emails a season</h3>
+    <p>Campaign copy and planning behind a programme sending over 10 million emails in each of the last two peak seasons.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Personalisation at scale</h3>
+    <p>Recommendations built from purchase history and bestseller data, working across a 5,000–6,500 SKU range.</p>
+  </div>
+  <div class="skill-card">
+    <h3>Discipline over discounting</h3>
+    <p>Two tightly time-boxed campaigns, Early Bird and the store closure reminder, kept discounting minimal everywhere else in the season.</p>
+  </div>
+</div>
+
 Each year at <a href="https://www.calendarclub.co.uk/" target="_blank" rel="noopener">Calendar Club</a> I planned and oversaw the main marketing
 campaign behind two launches: the opening of short-term stores across
 the UK and Ireland (between 270 and 300 of them) for the September to
@@ -42,33 +59,10 @@ so the calendars people saw first were the ones most likely to be
 relevant to them. In the last two years of my time there, this
 program sent over 10 million emails across peak season.
 
-## Key wins
-
-<div class="skills-grid">
-  <div class="skill-card">
-    <h3>10M+ emails a season</h3>
-    <p>Campaign copy and planning behind a programme sending over 10 million emails in each of the last two peak seasons.</p>
-  </div>
-  <div class="skill-card">
-    <h3>Personalisation at scale</h3>
-    <p>Recommendations built from purchase history and bestseller data, working across a 5,000–6,500 SKU range.</p>
-  </div>
-  <div class="skill-card">
-    <h3>Discipline over discounting</h3>
-    <p>Two tightly time-boxed campaigns, Early Bird and the store closure reminder, kept discounting minimal everywhere else in the season.</p>
-  </div>
-</div>
-
 <div class="sample-section">
 
 <p class="eyebrow">Promotion</p>
 <h3>Early Bird</h3>
-
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/calendar-club-early-bird-email.jpg' | url }}" alt="Calendar Club Early Bird email hero graphic">
-  </figure>
-</div>
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 convert the most organised, highest-intent customers with a
@@ -83,6 +77,12 @@ to justify itself – the discount and the retro 'Disney-esque' art
 direction did most of the persuading, with the text kept to the
 essentials: the offer, the code, and a light, knowing nod to
 2020.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/calendar-club-early-bird-email.jpg' | url }}" alt="Calendar Club Early Bird email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Early bird offer: 20% off everything!**
 >
@@ -106,12 +106,6 @@ footfall into stores rather than compete with them online.
 <p class="eyebrow">Geotargeted reminder</p>
 <h3>Store Closing Soon</h3>
 
-<div class="case-gallery-pair">
-  <figure>
-    <img src="{{ '/images/calendar-club-store-closing-email.jpg' | url }}" alt="Calendar Club Store Closing Soon email hero graphic">
-  </figure>
-</div>
-
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 give store customers a clear, time-limited reason to visit before
 their local store closed for the season, without pulling online
@@ -125,6 +119,12 @@ clear stock ahead of close-down. The copy names the customer's actual
 local store to keep the message concrete, is explicit that click and
 collect was available, and closes by reassuring people that online
 shopping continued beyond the store closures.
+
+<div class="case-gallery-pair">
+  <figure>
+    <img src="{{ '/images/calendar-club-store-closing-email.jpg' | url }}" alt="Calendar Club Store Closing Soon email hero graphic">
+  </figure>
+</div>
 
 > **Subject: Your local Calendar Club store is closing soon**
 >
@@ -154,3 +154,5 @@ a narrower job: it was never going to convert online shoppers into
 store visitors, but for people already inclined to shop in person, a
 clear, personal reminder of a limited window reliably boosted revenue
 in stores during their final days open.
+
+Read my <a href="{{ '/case-studies/book-box/' | url }}">Calendar Club</a> case study: Building a new retail brand from scratch.

@@ -20,8 +20,22 @@
       <span></span>
     </label>
     <nav class="site-nav">
-      <a href="{{ '/case-studies/' | url }}">Case Studies</a>
-      <a href="{{ '/copywriting/' | url }}">Copywriting</a>
+      <div class="nav-item">
+        <a href="{{ '/case-studies/' | url }}">Case Studies</a>
+        <ul class="nav-dropdown">
+          {% for item in collections.caseStudies %}
+          <li><a href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="nav-item">
+        <a href="{{ '/copywriting/' | url }}">Copywriting</a>
+        <ul class="nav-dropdown">
+          {% for item in collections.copySamples %}
+          <li><a href="{{ item.url | url }}">{{ item.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
       <a href="{{ '/about/' | url }}">About</a>
       <a href="https://www.linkedin.com/in/natataylor/" target="_blank" rel="noopener">Find me on LinkedIn</a>
     </nav>
