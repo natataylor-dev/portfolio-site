@@ -43,6 +43,40 @@
 
   <main class="site-main">
     {{ content | safe }}
+
+    {% if tags and "case-study" in tags %}
+    <div class="more-case-studies">
+      <h2 class="case-section-heading">Read More Case Studies</h2>
+      <div class="case-carousel">
+        {% for item in collections.caseStudies %}
+          {% if item.url != page.url %}
+          <a class="featured-card" href="{{ item.url | url }}">
+            <img src="{{ item.data.cardImage | url }}" alt="{{ item.data.cardAlt }}" style="object-position: {{ item.data.cardPosition | default('center') }};">
+            <span class="featured-card-title">{{ item.data.title }}</span>
+            <span class="featured-card-skills"><span class="eyebrow-label">Skills employed:</span>{{ item.data.skills }}</span>
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if tags and "copy-sample" in tags %}
+    <div class="more-case-studies">
+      <h2 class="case-section-heading">See More Copywriting Examples</h2>
+      <div class="case-carousel">
+        {% for item in collections.copySamples %}
+          {% if item.url != page.url %}
+          <a class="featured-card" href="{{ item.url | url }}">
+            <img src="{{ item.data.cardImage | url }}" alt="{{ item.data.cardAlt }}" style="object-position: {{ item.data.cardPosition | default('center') }};">
+            <span class="featured-card-title">{{ item.data.title }}</span>
+            <span class="featured-card-skills"><span class="eyebrow-label">Skills employed:</span>{{ item.data.skills }}</span>
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
   </main>
 
   <footer class="site-footer">
