@@ -31,6 +31,11 @@ skills: "Brand development · Retail launch · Data-led creative"
   </div>
 </div>
 
+<div class="case-testimonial">
+  <blockquote>"Natalie did a great job for us on developing and executing a marketing plan for our new retail concept. Her experience, diligence and attention to detail were key for us getting some great exposure for our trial stores."</blockquote>
+  <cite><strong>David Pike</strong> · Group Director · The Zebra Group</cite>
+</div>
+
 <h2 class="case-section-heading">Background</h2>
 
 At <a href="https://www.calendarclub.co.uk/" target="_blank" rel="noopener">Calendar Club</a>, I was integral to the creation of Book Box, a new

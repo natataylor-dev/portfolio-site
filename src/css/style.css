@@ -489,6 +489,97 @@ a { color: var(--accent); }
   color: var(--muted);
 }
 
+/* Client testimonial - sits below Key wins, above the Background
+   keyline, on case studies where a quote is available. A quieter,
+   card-style treatment (bordered box, no accent bookend) so it
+   reads as evidence rather than a personal pull-quote. */
+.case-testimonial {
+  margin: 2rem 0 2.5rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+}
+
+.case-testimonial blockquote {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.case-testimonial cite {
+  display: block;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* Horizontally-scrolling testimonial carousel, e.g. on the homepage.
+   Reuses .case-testimonial for each card, sized and snapped so
+   longer quotes don't force every card to full page width. */
+.testimonial-carousel {
+  display: flex;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--accent) var(--border);
+  scrollbar-width: thin;
+}
+
+.testimonial-carousel .case-testimonial {
+  flex: 0 0 90%;
+  max-width: 420px;
+  scroll-snap-align: start;
+  margin: 0;
+}
+
+.testimonial-carousel .case-testimonial blockquote {
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* "More ..." reveal for testimonial quotes longer than 6 lines -
+   same checkbox-toggle pattern used for the mobile nav, so no
+   JavaScript is needed. */
+.testimonial-toggle { display: none; }
+
+.testimonial-more {
+  display: block;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.testimonial-more:hover { text-decoration: underline; }
+
+.testimonial-toggle:checked ~ blockquote {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.testimonial-toggle:checked ~ .testimonial-more {
+  display: none;
+}
+
+.case-testimonial cite strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
 /* "Words matter" pull-quote accent, used on the About page */
 .pull-quote {
   margin: 2.5rem 0;

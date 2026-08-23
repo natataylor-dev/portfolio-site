@@ -31,6 +31,11 @@ skills: "Promotional strategy · Data-led decision making · Brand governance"
   </div>
 </div>
 
+<div class="case-testimonial">
+  <blockquote>"Natalie's wealth of knowledge and confidence enabled me to trust her ability to take on all aspects of the role."</blockquote>
+  <cite><strong>Sarah Wildbore</strong> · Managing Director · Emile et Rose</cite>
+</div>
+
 <h2 class="case-section-heading">Background</h2>
 
 As Ecommerce & Marketing Manager covering maternity leave at <a href="https://www.emile-et-rose.co.uk/" target="_blank" rel="noopener">Emile et
