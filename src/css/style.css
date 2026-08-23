@@ -244,6 +244,72 @@ a { color: var(--accent); }
   margin: 1.5rem 0 2rem;
 }
 
+@media (min-width: 700px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.more-case-studies {
+  margin-top: 3.5rem;
+}
+
+/* Horizontally-scrolling carousel for "More case studies" - avoids
+   an orphaned single card on its own row, which a wrapping grid
+   can't guarantee with an odd number of items. */
+.case-carousel {
+  display: flex;
+  gap: 1.25rem;
+  margin: 1.5rem 0 0.5rem;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--accent) var(--border);
+  scrollbar-width: thin;
+}
+
+.case-carousel .featured-card {
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+}
+
+.case-carousel .featured-card-title {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 640px) {
+  .case-carousel .featured-card {
+    flex-basis: 280px;
+  }
+}
+
+/* Centred call-to-action button under a featured-grid, e.g. "Read
+   More Case Studies". */
+.button-row {
+  text-align: center;
+  margin: 0 0 2.5rem;
+}
+
+.button {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.75rem 1.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.button:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
 .featured-card {
   display: block;
   border-radius: 8px;
