@@ -54,6 +54,12 @@ encourage ease of purchase and work to minimise returns.
 
 <img src="{{ '/images/wild-things-pure-radiance-tree-of-life.jpg' | url }}" alt="The bestselling Pure Radiance Tree of Life suncatcher, with the Crystal Radiance Tree of Life suncatcher inset for comparison" class="case-hero-image">
 
+The Crystal Radiance collection was created to sit under the Pure
+Radiance umbrella collection. The key differences being the number of
+crystals across each range, the size and the presentation; the new
+Crystal Radiance range (inset image) were gift-ready in a Wild Things
+branded box.
+
 <div class="collection-compare">
   <div class="collection-compare-panel">
     <h3>Pure Radiance</h3>
@@ -66,6 +72,14 @@ encourage ease of purchase and work to minimise returns.
 </div>
 
 <img src="{{ '/images/wild-things-crystal-dreams-hedgehog.jpg' | url }}" alt="The stained-glass-effect Crystal Dreams hedgehog suncatcher, with the Crystal Fantasies hedgehog design inset for comparison" class="case-hero-image">
+
+These two collections look very similar without clear highlighting of
+their design differences. The Crystal Fantasy collection (inset image)
+features a mirror-bright plain metal motif and four 14mm octagon
+cascade crystals,
+whilst the Crystal Dreams motifs are richly coloured stained
+glass-effect with multi-coloured complementary bead runs. It was
+important to make this clear for each category description.
 
 <div class="collection-compare">
   <div class="collection-compare-panel">
