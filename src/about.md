@@ -84,8 +84,9 @@ get made in isolation from each other.
 Most of the work on this site was produced inside small, resource-lean
 teams – often without dedicated content tooling, formal research
 budgets, or a content design function to sit inside. That's shaped how
-I work: fast, collaborative, comfortable with ambiguity, and focused
-on getting good content shipped rather than running a perfect process.
+I work: efficient, collaborative, comfortable with ambiguity, and
+focused on getting good content shipped rather than running a perfect
+process.
 If you're looking for someone who's only ever worked inside a mature
 content design system, this isn't quite that. If you want someone who
 can build the thinking from scratch, under real constraints, and still

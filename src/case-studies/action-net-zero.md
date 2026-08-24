@@ -18,7 +18,7 @@ skills: "Journey mapping · UX writing · Client collaboration"
 
 <div class="skills-grid">
   <div class="skill-card">
-    <h3>Fast, low-cost diagnosis</h3>
+    <h3>Efficient, low-cost diagnosis</h3>
     <p>Mapped drop-off points across multiple audience segments in a single collaborative session, with no research budget.</p>
   </div>
   <div class="skill-card">

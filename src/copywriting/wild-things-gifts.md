@@ -136,7 +136,7 @@ highlighted from each.
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
 promote pet-themed collections ahead of Pet Month and Easter
-replenishment orders, while building goodwill with an awards vote
+replenishment orders, whilst building goodwill with an awards vote
 ask</p>
 <p class="case-skills"><span class="eyebrow-label">Call to
 action:</span> view the collection and vote for us</p>

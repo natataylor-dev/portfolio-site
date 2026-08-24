@@ -45,13 +45,13 @@ craftsmanship of the garments themselves.
 <h3>Easter Shop</h3>
 
 <p class="case-skills"><span class="eyebrow-label">Objective:</span>
-launch the Easter shop with seasonal, on-brand playfulness, while
+launch the Easter shop with seasonal, on-brand playfulness, whilst
 keeping the tone gentle rather than pushy</p>
 <p class="case-skills"><span class="eyebrow-label">Call to
 action:</span> hop over to the Easter Shop</p>
 
 A seasonal launch email for the brand's Easter collection, leaning
-into light wordplay ('hop', 'chick', 'egg-stra') while staying within
+into light wordplay ('hop', 'chick', 'egg-stra') whilst staying within
 the brand's warm, sweet, never-intrusive tone of voice.
 
 <div class="case-gallery-pair">
