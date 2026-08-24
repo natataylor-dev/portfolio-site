@@ -69,9 +69,9 @@ treating launch as the finish line.
 <h2 class="case-section-heading">Results</h2>
 
 The result is a live framework that made a specialist product range
-genuinely navigable for a new type of customer, while doubling as an
-ongoing feedback loop for the business – the site itself became a
-source of the data needed to decide what to prioritise next. In the
-months since launch, the site has seen steady organic growth with
-very little spent on marketing, a sign that the structure itself is
-doing much of the work of bringing customers to the right product.
+navigable for a new type of customer, whilst doubling as an ongoing
+feedback loop for the business – the site itself became a source of
+the data needed to decide what to prioritise next. In the months since
+launch, the site has seen steady organic growth with very little spent
+on marketing, a sign that the structure itself is doing much of the
+work of bringing customers to the right product.

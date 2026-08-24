@@ -7,7 +7,9 @@ title: Home
 
 # <a href="https://www.linkedin.com/in/natataylor/" target="_blank" rel="noopener">Natalie Taylor</a>
 
-Most of my career has sat under titles like Marketing Manager or
+Welcome to my portfolio site – a collection of case studies and
+copywriting examples that will give you an outline of my career to
+date. Most of my career has sat under titles like Marketing Manager or
 Ecommerce & Marketing Manager, not copywriter or content designer.
 However, the thread has always been the same: making sense of a
 complicated range or a confusing process, then writing my way to

@@ -34,22 +34,23 @@ skills: "Content strategy · Copywriting · Category differentiation"
 <h2 class="case-section-heading">Background</h2>
 
 <a href="https://www.wildthingsgifts.com/" target="_blank" rel="noopener">Wild Things Gifts</a> manufactures premium gift products, including crystal
-suncatchers, bookmarks and pin badges, sold to trade and consumer
-customers across the UK and international markets. Several of its core
-collections shared close visual and material similarities, and over
-time this had made the range genuinely difficult for customers to
-navigate: buyers often couldn't easily tell what set one collection
-apart from another, how they should be displayed or which was the
-right fit for their retail needs.
+suncatchers, bookmarks and pin badges, sold wholesale to trade
+customers across the UK, Ireland, US, Spain and other international
+markets. Several of its core collections shared close visual and
+material similarities, and over time this had made the range difficult
+for customers to navigate. Buyers often couldn't easily tell what set
+one collection apart from another, how they should be displayed or
+which was the right product for their retail needs.
 
-This wasn't a new problem, but it had also never really been
-addressed. Product collections had been soft-launched over many years
-with no dedicated content ever created to explain what set them apart
-– there was no back-catalogue of copy, guidelines or positioning to
-review, correct or build on. Working with a modest marketing budget, I
-was starting completely from scratch: creating the brand's first real
-reference point for collection differentiation, rather than fixing an
-existing one.
+This was a legacy problem created over 40 years of operation, but it
+had also never really been properly addressed. Product collections had
+continually been soft-launched, without critical paths in place to
+align collection launches with key retail points in the year. With no
+dedicated content created to explain what set them apart, there was
+also no back-catalogue of copy, guidelines or positioning to review,
+correct or build on. Working with a modest marketing budget, I
+launched a campaign that would highlight collection differentiation to
+encourage ease of purchase and work to minimise returns.
 
 <img src="{{ '/images/wild-things-pure-radiance-tree-of-life.jpg' | url }}" alt="The bestselling Pure Radiance Tree of Life suncatcher, with the Crystal Radiance Tree of Life suncatcher inset for comparison" class="case-hero-image">
 
@@ -80,13 +81,13 @@ existing one.
 <h2 class="case-section-heading">Tactics</h2>
 
 I developed content across email, website and blog channels
-specifically built around distinction: highlighting the individual
-quality markers, materials and design details that set each collection
-apart, rather than treating the range as a single undifferentiated
-catalogue. Email campaigns and blog posts were used to build product
-knowledge ahead of purchase, while website copy was rewritten
-collection-by-collection to give each range its own clear identity at
-the point of decision.
+specifically focused on distinction: highlighting the individual
+quality attributes, materials and design details that set each
+collection apart, rather than treating the range as a single
+undifferentiated catalogue. Email campaigns and blog posts were used
+to build product knowledge ahead of purchase, whilst website copy was
+rewritten collection-by-collection to give each range its own clear
+identity.
 
 <div class="case-gallery">
   <figure>

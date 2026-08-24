@@ -36,7 +36,7 @@ campaign behind two launches: the opening of short-term stores across
 the UK and Ireland (between 270 and 300 of them) for the September to
 January season, and the online launch of the new year calendar and
 diary range. In-store, the message stayed consistent season to
-season – Calendar Club are Back in Town – while online the focus
+season – Calendar Club are Back in Town – whilst online the focus
 shifted to the new year range itself.
 
 The audience was predominantly women buying either family planners to
